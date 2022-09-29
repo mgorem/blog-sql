@@ -45,14 +45,6 @@ const router = createBrowserRouter([
     path: "/login",
     element: <Login />,
   },
-  {
-    path: "/single",
-    element: <Single />,
-  },
-  {
-    path: "/write",
-    element: <Write />,
-  },
 ]);
 function App() {
   return (
